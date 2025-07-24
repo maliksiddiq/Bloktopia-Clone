@@ -671,13 +671,13 @@ footer {
         /* border: 2px solid darkgoldenrod; */
     }
 
-    /* .sec-three-image-two {
+    .sec-three-image-two {
         height: 390px;
          width: 60%;
         background-image: url(./assets/sec-three-image-two.png );
         background-repeat: no-repeat;
-        background-size: 540px 320px ; */
-        /* border: 2px solid darkgoldenrod; */
+        background-size: 540px 320px ;
+        border: 2px solid darkgoldenrod;
     }
 
     /* Cards Section */

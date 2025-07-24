@@ -363,6 +363,7 @@ nav ul li a:hover {
     background-position-y: -130px;
     background-repeat: no-repeat;
     transition: all 0.23s ease-in-out;
+
 }
 
 .sec-five-image-two:hover {
@@ -418,6 +419,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .sec-six-flex-box-one p {
@@ -460,11 +462,12 @@ nav ul li a:hover {
 
 .sec-six-flex-box-two .four {
     font-size: 32px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .sec-six-flex-box-two .button {
     width: 170px;
+    margin-top: 140px;
 }
 
 /* footer Section */
@@ -533,6 +536,10 @@ footer {
 
 
 @media screen and (max-width:1030px) {
+
+    .logo-sec {
+        width: 23%;
+    }
 
     nav ul {
         display: block;
@@ -604,7 +611,7 @@ footer {
         align-items: center;
         width: 90%;
         row-gap: 20px;
-      margin-top: 30px;
+        margin-top: 30px;
     }
 
     .sec-one-box-one {
@@ -656,7 +663,7 @@ footer {
         margin-top: 30px;
     }
 
-    .sec-three-para h2{
+    .sec-three-para h2 {
         margin-top: 30px;
         font-size: 34px;
     }
@@ -673,17 +680,17 @@ footer {
 
     .sec-three-image-two {
         height: 390px;
-         width: 60%;
+        width: 60%;
         background-image: url(./assets/sec-three-image-two.png );
         background-repeat: no-repeat;
-        background-size: 540px 320px ;
-        border: 2px solid darkgoldenrod;
+        background-size: 100% 320px;
+        /* border: 2px solid darkgoldenrod; */
     }
 
     /* Cards Section */
 
     .sec-five-image-two {
-        background-position-y: 0px ;
+        background-position-y: 0px;
     }
 
     .position {
@@ -691,6 +698,28 @@ footer {
         background-position: center;
     }
 
+}
+
+
+@media screen and (max-width:760px) {
+    
+.sec-five-flex-container {
+    border: 2px solid red;
+    height: 650px;
+    flex-wrap: wrap;
+}
+
+.sec-five-image-one    {
+    width: 90vw;
+    height: 350px;
+}
+
+
+
+    /* .card {
+        border: 2px solid red;
+        width: 90vw;
+    } */
 }
 
 

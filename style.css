@@ -539,6 +539,7 @@ footer {
 
     .logo-sec {
         width: 23%;
+        border: 2px solid red;
     }
 
     nav ul {

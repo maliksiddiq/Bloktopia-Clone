@@ -317,7 +317,7 @@ nav ul li a:hover {
     border: 2px solid rgb(62, 61, 61);
     border-radius: 12px;
     height: 99%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(./assets/sec-five-image-one.jpg );
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./assets/sec-five-image-one.jpg );
     background-size: cover;
     background-position: center;
     margin-left: 10px;
@@ -325,8 +325,8 @@ nav ul li a:hover {
 }
 
 .sec-five-image-one:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(./assets/sec-five-image-one.jpg );
-    transform: scale(1.02);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(./assets/sec-five-image-one.jpg );
+    transform: scale(1.01);
 }
 
 
@@ -358,7 +358,7 @@ nav ul li a:hover {
     border: 2px solid rgb(62, 61, 61);
     border-radius: 12px;
     height: 99.5%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(./assets/sec-five-image-two.jpg );
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./assets/sec-five-image-two.jpg );
     background-size: cover;
     background-position-y: -130px;
     background-repeat: no-repeat;
@@ -367,8 +367,8 @@ nav ul li a:hover {
 }
 
 .sec-five-image-two:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(./assets/sec-five-image-two.jpg );
-    transform: scale(1.02);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(./assets/sec-five-image-two.jpg );
+    transform: scale(1.01);
 }
 
 .sec-five-image-two-flex-container {
@@ -402,7 +402,7 @@ nav ul li a:hover {
     height: 100%;
     border: 2px solid rgb(62, 61, 61);
     border-radius: 12px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(./assets/sec-six-one.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./assets/sec-six-one.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 10px;
@@ -411,8 +411,8 @@ nav ul li a:hover {
 }
 
 .sec-six-image-one:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(./assets/sec-six-one.jpg);
-    transform: scale(1.02);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(./assets/sec-six-one.jpg);
+    transform: scale(1.01);
 }
 
 .sec-six-flex-box-one {
@@ -438,15 +438,15 @@ nav ul li a:hover {
     border: 2px solid rgb(62, 61, 61);
     padding: 4px;
     border-radius: 12px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(./assets/sec-six-sec.jpg );
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./assets/sec-six-sec.jpg );
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.23s ease-in-out;
 }
 
 .sec-six-image-two:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(./assets/sec-six-sec.jpg );
-    transform: scale(1.02);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(./assets/sec-six-sec.jpg );
+    transform: scale(1.01);
 }
 
 .sec-six-flex-box-two {
@@ -605,7 +605,6 @@ footer {
     }
 
     .sec-one-flex-container {
-        /* border: 2px solid red; */
         height: 640px;
         flex-direction: column;
         align-items: center;
@@ -618,7 +617,6 @@ footer {
         width: 550px;
         margin-top: 80px;
         background-size: cover;
-        /* border: 2px solid darkblue; */
     }
 
     .sec-one-box-two {
@@ -634,7 +632,6 @@ footer {
         height: 220px;
         justify-content: center;
         align-items: flex-end;
-        /* border: 2px solid darkblue; */
         width: 100%;
     }
 
@@ -646,7 +643,6 @@ footer {
     }
 
     .sec-three-flex-container {
-        /* border: 2px solid crimson; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -657,7 +653,6 @@ footer {
     .sec-three-image-one {
         width: 55%;
         height: 500px;
-        /* border: 2px solid darkblue; */
         display: flex;
         align-items: center;
         margin-top: 30px;
@@ -675,7 +670,6 @@ footer {
         display: flex;
         flex-direction: column;
         row-gap: 20px;
-        /* border: 2px solid darkgoldenrod; */
     }
 
     .sec-three-image-two {
@@ -684,7 +678,6 @@ footer {
         background-image: url(./assets/sec-three-image-two.png );
         background-repeat: no-repeat;
         background-size: 100% 320px;
-        /* border: 2px solid darkgoldenrod; */
     }
 
     /* Cards Section */
@@ -694,32 +687,65 @@ footer {
     }
 
     .position {
-        /* border: 2px solid red; */
         background-position: center;
     }
 
 }
 
 
-@media screen and (max-width:760px) {
-    
-.sec-five-flex-container {
-    border: 2px solid red;
-    height: 650px;
-    flex-wrap: wrap;
-}
+@media screen and (max-width:780px) {
 
-.sec-five-image-one    {
-    width: 90vw;
-    height: 350px;
-}
+    .sec-five-flex-container {
+        height: 730px;
+        flex-wrap: wrap;
+    }
+
+    .sec-five-image-one {
+        width: 95vw;
+        height: 350px;
+        transition: all 0.12s ease 0.1;
+    }
+
+    .sec-five-image-two {
+        width: 95vw;
+        height: 350px;
+        margin-left: 10px;
+        transition: all 0.12s ease 0.1s;
+    }
+
+    .sec-six-flex-container {
+        height: 740px;
+        flex-wrap: wrap;
+    }
 
 
+    .sec-six-image-one {
+        width: 95vw;
+        height: 350px;
+        transition: all 0.27s ease 0.1s;
+    }
 
-    /* .card {
-        border: 2px solid red;
-        width: 90vw;
-    } */
+    .sec-six-image-two {
+        width: 95vw;
+        height: 350px;
+        margin-left: 10px;
+        transition: all 0.12s ease 0.1s;
+    }
+
+    .social-icons {
+        /* border: 2px solid red; */
+        width: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        left: 250px;
+        margin-top: 20px;
+    }
+
+     .social-icon {
+        font-size: 28px;
+        margin-top: 25px;
+     }
 }
 
 
